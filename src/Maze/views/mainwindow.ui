@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>499</width>
+    <width>502</width>
     <height>680</height>
    </rect>
   </property>
@@ -30,9 +30,9 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>0</x>
       <y>510</y>
-      <width>484</width>
+      <width>500</width>
       <height>163</height>
      </rect>
     </property>
@@ -76,7 +76,7 @@
          <item>
           <widget class="QSpinBox" name="size_maze_x">
            <property name="minimum">
-            <number>25</number>
+            <number>4</number>
            </property>
            <property name="maximum">
             <number>50</number>
@@ -90,9 +90,6 @@
            </property>
            <property name="maximum">
             <number>50</number>
-           </property>
-           <property name="value">
-            <number>25</number>
            </property>
           </widget>
          </item>
