@@ -20,6 +20,7 @@ MainWindow::MainWindow(QWidget *parent)
   scene->setSceneRect(0, 0, 498, 498);
   QPen pen(Qt::white, 2);
   scene->addRect(0, 0, 498, 498, pen);
+  scene->setBackgroundBrush(Qt::black);
   ui->graphicsView->setScene(scene);
 
   setSolvedBlock(false);
@@ -125,6 +126,7 @@ void MainWindow::onMazeLoaded(
   scene->setSceneRect(0, 0, 498, 498);
   QPen pen(Qt::white, 2);
   scene->addRect(0, 0, 498, 498, pen);
+  scene->setBackgroundBrush(Qt::black);
 
   drawMaze(scene, rows, cols, rightWalls, bottomWalls);
 
