@@ -49,3 +49,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+*.pro.user
+.DS_Store
+cmake-build-debug/
+build-maze-Desktop-Debug/
+*build*/
