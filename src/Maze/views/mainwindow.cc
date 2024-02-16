@@ -111,8 +111,11 @@ void MainWindow::on_load_maze_clicked() {
 }
 
 void MainWindow::on_find_solving_maze_clicked() {
-  controller_->findPath(ui->start_x->value(), ui->start_y->value(),
-                        ui->end_x->value(), ui->end_y->value());
+  int startX = ui->start_x->value();
+  int startY = ui->start_y->value();
+  int endX = ui->end_x->value();
+  int endY = ui->end_y->value();
+  controller_->findPath(startX, startY, endX, endY);
 }
 
 void MainWindow::onMazeLoaded(

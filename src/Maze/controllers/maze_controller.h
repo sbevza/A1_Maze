@@ -22,6 +22,9 @@ class MazeController : public QObject {
   void findPath(int x1, int y1, int x2, int y2);
   void generateMaze(int rows, int cols);
 
+  int getRows() const;
+  int getCols() const;
+
  signals:
   void mazeLoaded(int rows, int cols,
                   const std::vector<std::vector<bool>> &rightWalls,
